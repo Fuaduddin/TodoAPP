@@ -1,0 +1,27 @@
+﻿.tasklabel {
+    text-align: left !important;
+}
+
+#newtaskcreation {
+    background-color: green;
+    color: white;
+    padding: 2%;
+}
+
+#newtaskcancle {
+    background-color: red;
+    color: white;
+    padding: 2%;
+}
+
+#Canclebutton {
+    background-color: red;
+    color: white;
+    padding: 7% 12% 9% 14%;
+}
+
+#updatebutton {
+    background-color: green;
+    color: white;
+    padding: 7% 12% 9% 14%;
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TodoRestfulApiModelStoreContainer" CdmEntityContainer="TodoRestfulApiEntities">
+    <EntitySetMapping Name="Todoes">
+      <EntityTypeMapping TypeName="TodoRestfulApiModel.Todo">
+        <MappingFragment StoreEntitySet="Todo">
+          <ScalarProperty Name="TodoID" ColumnName="TodoID" />
+          <ScalarProperty Name="TodoTile" ColumnName="TodoTile" />
+          <ScalarProperty Name="TodoDetails" ColumnName="TodoDetails" />
+          <ScalarProperty Name="TodoDate" ColumnName="TodoDate" />
+          <ScalarProperty Name="TodoTime" ColumnName="TodoTime" />
+          <ScalarProperty Name="TodoUpdate" ColumnName="TodoUpdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
